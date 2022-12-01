@@ -8,7 +8,7 @@ export function list_product_assertion() {
         $ele.get('.inventory_item_name')
         $ele.get('.inventory_item_price')
         $ele.get('.inventory_item_desc')
-        $ele.get('#add-to-cart-sauce-labs-backpack').contains("Add to cart")
+        $ele.get('#add-to-cart-sauce-labs-backpack')
       })
 }
 
